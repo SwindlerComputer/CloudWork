@@ -28,6 +28,7 @@ body {
 
 .name {
     padding-top: 3px;
+    font-size: 16px; /* Added font size */
 }
 
 .remove {
@@ -36,4 +37,17 @@ body {
 
 button:focus {
     border: 1px solid #333;
+}
+
+button:hover {
+    background-color: #ccc; /* Added button hover effect */
+}
+
+a {
+    color: blue; /* Styled links */
+    text-decoration: underline;
+}
+
+a:hover {
+    color: darkblue; /* Change link color on hover */
 }
