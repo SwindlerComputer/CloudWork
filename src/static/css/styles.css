@@ -1,5 +1,5 @@
 body {
-    background-color: #f4f4f4;
+    background-color: #808080;
     margin-top: 50px;
     font-family: 'Lato';
 }
@@ -28,6 +28,7 @@ body {
 
 .name {
     padding-top: 3px;
+    font-size: 16px;
 }
 
 .remove {
@@ -36,4 +37,31 @@ body {
 
 button:focus {
     border: 1px solid #333;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
 }
